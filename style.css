@@ -1,0 +1,208 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__card {
+    width: 263px;
+    height: 386px;
+    background-color: #FFF;
+    border-radius: 16px 50px 16px 16px;
+    box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.shoes {
+    position: absolute;
+    top: -200px;
+    left: -20px;
+}
+
+.brend {
+    font-family: 'Monteserrat', sans-serif;
+    color: #8F8F8F;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 22px;
+    margin-top: 110px;
+}
+
+.product {
+    font-family: 'Montserrat', sans-serif;
+    color: #29455F;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 32px;
+    margin-left: 21px;
+    margin-top: -15px;
+}
+
+.currancy {
+    font-family: 'Montserrat', sans-serif;
+    color: #808080;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 152px;
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-family: 'Montserrat', sans-serif;
+    color: #29455F;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 30px;
+    margin-left: 174px;
+    margin-top: -39px;
+    margin-bottom: 16px;
+}
+
+.colors {
+    font-family: 'Monteserrat', sans-serif;
+    color: #808080;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 21px;
+    margin-top: 6px;
+    margin-bottom: 4px;
+}
+
+.ellipse__ellipse1 {
+    width: 18px;
+    height: 18px;
+    margin-left: 23px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: #85DB48;
+    background: #85DB48;
+}
+
+.ellipse__ellipse2 {
+    width: 18px;
+    height: 18px;
+    margin-left: 23px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: #FF3838;
+    background: #FF3838;
+
+}
+
+.ellipse__ellipse3 {
+    width: 18px;
+    height: 18px;
+    margin-left: 23px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: #3864FF;
+    background: #3864FF;
+}
+
+.sizes {
+    font-family: 'Monteserrat', sans-serif;
+    color: #808080;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 21px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+
+.numbers__1 {
+    display: flex;
+    width: 23px;
+    height: 23px;
+    margin-left: 21px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #85DB48;
+}
+
+.numbers__2 {
+    display: flex;
+    width: 23px;
+    height: 23px;
+    margin-left: 55px;
+    margin-top: -25px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers__3 {
+    display: flex;
+    width: 23px;
+    height: 23px;
+    margin-left: 88px;
+    margin-top: -25px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers__4 {
+    display: flex;
+    width: 23px;
+    height: 23px;
+    margin-left: 121px;
+    margin-top: -25px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.button__cart {
+    display:  grid;
+    width: 49px;
+    height: 80px;
+    margin-left: 191px;
+    margin-top: -90px;
+    background-color: #85DB48;
+    border-radius: 16px;
+}
+
+.button__cart--arrow1 {
+    margin-left: 18px;
+    margin-top: 14.29px;
+}
+
+.button__cart--arrow2 {
+    margin-left: 18px;
+    margin-top: -14px;
+}
+
+.button__cart--arrow3 {
+    margin-left: 18px;
+    margin-top: -20px;
+}
+
+.button__cart--cart {
+    margin-left: 12px;
+    margin-top: -18px;
+}
